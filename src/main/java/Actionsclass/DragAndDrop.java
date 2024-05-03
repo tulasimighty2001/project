@@ -13,7 +13,7 @@ public class DragAndDrop {
 		// TODO Auto-generated method stub
 WebDriver driver=new EdgeDriver();
 driver.get("https://www.w3schools.com/html/html5_draggandrop.asp");
-//srcelement
+//srcelement namaste 
 WebElement srcele=driver.findElement(By.xpath("//div[@id='div1']"));
 //destele
 WebElement destele=driver.findElement(By.xpath("//div[@id='div2']"));

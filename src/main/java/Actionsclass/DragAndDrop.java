@@ -20,7 +20,7 @@ WebElement destele=driver.findElement(By.xpath("//div[@id='div2']"));
 //create object of actions class
 Actions a=new Actions(driver);
 a.dragAndDrop(srcele, destele).perform();
-
+System.out.println("hi","heelo");
 	}
 
 }
